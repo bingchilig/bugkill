@@ -1,0 +1,25 @@
+body { margin:0; overflow:hidden; touch-action:none; background:#0f1223; font-family:sans-serif; }
+canvas { display:block; width:100vw; height:100vh; }
+
+#menu {
+  position:absolute; top:40%; width:100%; display:flex; justify-content:center; z-index:20;
+}
+#menu button { font-size:28px; padding:20px 40px; border-radius:12px; cursor:pointer; }
+
+.controls { position:absolute; bottom:10px; width:100%; display:flex; justify-content:space-around; z-index:10; }
+.controls button { font-size:28px; width:45%; height:60px; border-radius:12px; }
+
+#score { position:absolute; top:20px; left:10px; color:white; font-size:20px; z-index:10; }
+#best { position:absolute; top:50px; left:10px; color:white; font-size:20px; z-index:10; }
+
+#gameOverUI {
+  position:absolute;
+  top:30%;
+  width:100%;
+  text-align:center;
+  color:white;
+  z-index:20;
+}
+#gameOverUI h1 { font-size:40px; margin-bottom:20px; }
+#gameOverUI p { font-size:24px; margin-bottom:20px; }
+#gameOverUI button { font-size:28px; padding:15px 30px; border-radius:12px; cursor:pointer; }

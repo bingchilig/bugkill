@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>좌우 피하기 게임</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="game"></canvas>
+
+  <div id="menu">
+    <button id="startBtn">게임 시작</button>
+  </div>
+
+  <div class="controls">
+    <button id="leftBtn">◀</button>
+    <button id="rightBtn">▶</button>
+  </div>
+
+  <div id="score">점수: 0</div>
+  <div id="best">최고 기록: 0</div>
+
+  <div id="gameOverUI" style="display:none;">
+    <h1>게임 오버!</h1>
+    <p id="finalScore"></p>
+    <button id="restartBtn">다시 시작</button>
+  </div>
+
+<script src="game.js"></script>
+</body>
+</html>
